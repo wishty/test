@@ -1,0 +1,57 @@
+body {
+    margin-left: 60px;
+}
+
+h1, h2 {
+    color: red;
+}
+
+span {
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+}
+
+#internet, #browser {
+    border: 1px solid black;
+    background-color: goldenrod;
+    text-decoration: none;
+}
+
+input[type="button"] {
+    background-color: gold;
+}
+
+input[type="text"] {
+    background-color: red;
+}
+
+div > p {    /* 바로 아래의 자식만 */
+    border: 1px solid green;
+}
+
+div > p:hover {
+    background-color: goldenrod;
+}
+
+.box {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+
+#box1 {
+    padding: 50px;
+}
+
+#box2 {
+    margin: 0px;
+}
+
+#box3 {
+    margin: 50px;
+}
